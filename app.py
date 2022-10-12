@@ -1,4 +1,20 @@
 def test():
     return 'test 2'
-print( test() )
-print('nueva rama')
+def suma(num):
+    a = 0
+    for i in num: a+=i
+    
+    return a
+    
+    
+
+"""
+"""
+
+numeros = [1,2,3,4,5,6,7,8,9,10]
+#print( test() )
+#print('nueva rama')
+print( suma(numeros) )
+
+
+    
